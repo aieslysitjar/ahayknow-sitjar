@@ -73,3 +73,67 @@ function check1A() {
   }
 
 }
+
+// Aralin 2 - Gawain sa Panitikan
+
+function check2() {
+  var c = 0;
+  var q1 = document.quiz.question1.value;
+  var q2 = document.quiz.question2.value;
+  var q3 = document.quiz.question3.value;
+  var q4 = document.quiz.question4.value;
+  var q5 = document.quiz.question5.value;
+
+  var result = document.getElementById('result');
+
+  if (q1 == "1C") { c++ }
+  if (q2 == "2A") { c++ }
+  if (q3 == "3B") { c++ }
+  if (q4 == "4B") { c++ }
+  if (q5 == "5A") { c++ }
+
+  if (c < 4) {
+    pass.style.display = "none";
+    fail.style.display = "block";
+    result.textContent = `${c}`
+    message.textContent = `Pindutin ang Pantulong na Pagtataya sa ibaba.`
+  } else {
+    fail.style.display = "none";
+    pass.style.display = "block"
+    result.textContent = `${c}`
+    message.textContent = `Magaling! Ikaw ay pumasa!`
+  }
+
+}
+
+// Aralin 2 - Pantulong na Pagtataya sa Panitikan
+
+function check2A() {
+  var c = 0;
+  var q1 = document.quiz.question1.value;
+  var q2 = document.quiz.question2.value;
+  var q3 = document.quiz.question3.value;
+  var q4 = document.quiz.question4.value;
+  var q5 = document.quiz.question5.value;
+
+  var result = document.getElementById('result');
+
+  if (q1 == "1B") { c++ }
+  if (q2 == "2C") { c++ }
+  if (q3 == "3B") { c++ }
+  if (q4 == "4A") { c++ }
+  if (q5 == "5A") { c++ }
+
+  if (c < 4) {
+    pass.style.display = "none";
+    fail.style.display = "block";
+    result.textContent = `${c}`
+    message.textContent = `Ulitin ang pagsagot.`
+  } else {
+    fail.style.display = "none";
+    pass.style.display = "block"
+    result.textContent = `${c}`
+    message.textContent = `Magaling! Ikaw ay pumasa!`
+  }
+
+}

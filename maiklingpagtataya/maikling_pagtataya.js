@@ -17,12 +17,12 @@ function check1() {
 
   if (q1 == "1A") { c++ }
   if (q2 == "2B") { c++ }
-  if (q3 == "3C") { c++ }
+  if (q3 == "3B") { c++ }
   if (q4 == "4B") { c++ }
   if (q5 == "5C") { c++ }
-  if (q6 == "6A") { c++ }
+  if (q6 == "6C") { c++ }
   if (q7 == "7C") { c++ }
-  if (q8 == "8C") { c++ }
+  if (q8 == "8A") { c++ }
   if (q9 == '9B') { c++ }
   if (q10 == '10A') { c++ }
 
@@ -57,15 +57,15 @@ function check2() {
 
   var result = document.getElementById('result');
 
-  if (q1 == "1A") { c++ }
-  if (q2 == "2B") { c++ }
+  if (q1 == "1B") { c++ }
+  if (q2 == "2A") { c++ }
   if (q3 == "3C") { c++ }
   if (q4 == "4B") { c++ }
-  if (q5 == "5C") { c++ }
+  if (q5 == "5A") { c++ }
   if (q6 == "6A") { c++ }
   if (q7 == "7C") { c++ }
   if (q8 == "8C") { c++ }
-  if (q9 == '9B') { c++ }
+  if (q9 == '9A') { c++ }
   if (q10 == '10A') { c++ }
 
   if (c < 5) {
